@@ -1,5 +1,5 @@
-
 function upperCaser(input) {
-    input.ToUpper();
-  }
+  return input.toUpperCase();
+}
 
+module.exports = upperCaser
